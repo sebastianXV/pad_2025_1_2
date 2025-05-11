@@ -1,0 +1,35 @@
+# Entorno Virtual
+venv/
+env/
+.venv/
+
+# Archivos de Python compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.swp
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+
+# Archivos de entorno y configuraciones locales
+*.env
+*.local
+*.log
+
+# Archivos de base de datos (en tu caso, SQLite)
+*.sqlite
+*.db
+
+# Archivos de cache y dependencias
+*.egg-info/
+dist/
+build/
+
+# Otros archivos que no deberíamos subir
+*.bak
+*.tmp
+*.zip
