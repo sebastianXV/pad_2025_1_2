@@ -1,7 +1,13 @@
+import pandas as pd
 from edu_bigdata.database import DataBase
 from edu_bigdata.dataweb import DataWeb
 
 def main():
+    # Configurar pandas para mostrar todo
+    pd.set_option('display.max_rows', None)
+    pd.set_option('display.max_columns', None)
+    pd.set_option('display.width', None)
+
     # Instanciamos las clases
     db = DataBase()  # Conexión a la base de datos SQLite
     dataweb = DataWeb()  # Conexión a la API Jikan
