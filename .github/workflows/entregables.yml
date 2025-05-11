@@ -34,7 +34,8 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Paso 7 - Ejecutar Script de prueba
-        run: python src/edu_bigdata/main.py
+        run: PYTHONPATH=src python src/edu_bigdata/main.py
+
 
       - name: Paso 8 - Crear Commit Automático
         uses: stefanzweifel/git-auto-commit-action@v5
